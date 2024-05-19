@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 function NavbarComp() {
   return (
     // fixed=top
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+    >
       <Container>
         <Navbar.Brand href="#home" as={Link} to="/">
           <img
@@ -22,6 +25,9 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
             <Nav.Link as={Link} to="/about">
               Tentang Kami
             </Nav.Link>
@@ -31,7 +37,7 @@ function NavbarComp() {
             <Nav.Link as={Link} to="/contact">
               Kontak
             </Nav.Link>
-            <Button variant="success" as={Link} to="/register">
+            <Button variant="success" as={Link} to="/register" className="btn rounded-1">
               Daftar
             </Button>
           </Nav>

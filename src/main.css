@@ -1,12 +1,41 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
-:root{
-    --primary-color: #f26a2e;
-    --secondary-color: #f7f7f7;
-    --tertiary-color: #333;
-    --quaternary-color: #666;
-    --navbar-color: #ffffff;
-    --text-color: #000000;
+:root {
+  --primary-color: #f26a2e;
+  --secondary-color: #f7f7f7;
+  --tertiary-color: #333;
+  --quaternary-color: #666;
+  --navbar-color: #ffffff;
+  --text-color: #000000;
+}
+
+.navbar {
+  background-color: var(--navbar-color);
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.nav-link {
+  color: var(--text-color);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bg-image {
+  /* Adjust the url as needed */
+  background: url("/src/assets/bg.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-image .container h1 {
+  color: #ffffff; /* Change this to the color you want */
 }

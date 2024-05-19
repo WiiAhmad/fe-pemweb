@@ -24,18 +24,19 @@
 }
 
 .bg-image {
-  /* Adjust the url as needed */
-  background: url("/src/assets/bg.svg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("./assets/bg.svg");
   background-size: cover;
-  height: 100vh; /* Adjust as needed */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 95vh;
 }
 
 .bg-image .container h1 {
-  color: #ffffff; /* Change this to the color you want */
+  color: var(--navbar-color);
+  align-content: center;
+}
+
+#section2{
+  text-align: center;
+  margin-top: 50px;
 }

@@ -1,7 +1,10 @@
+import NavbarComp from "../components/Navbar";
+
 function ProductsPage() {
   return (
     <div>
-      <h1>Product</h1>
+      <NavbarComp />
+      <h1>Products</h1>
     </div>
   );
 }

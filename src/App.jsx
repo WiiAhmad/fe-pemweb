@@ -1,9 +1,12 @@
-import Navbar from "./components/Navbar"
+import NavbarComp from "./components/Navbar"
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavbarComp />
+      <div>
+        <h1>Home</h1>
+      </div>
     </div>
   )
 }

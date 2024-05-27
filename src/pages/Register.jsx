@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import { Row, Col } from "react-bootstrap";
-import FormCheck from "react-bootstrap/FormCheck";
+import { Link } from "react-router-dom";
 
 function RegisterPage() {
   return (
@@ -14,38 +14,45 @@ function RegisterPage() {
         <Row className="py-5">
           <Col md={6} className="mx-auto">
             <div className="shadow p-5 rounded">
-              <h2 className="text-center mb-4">Selamat Datang !</h2>
-              <h4 className="text-center mb-4">Masuk</h4>
-              <p className="text-center mb-4">Lorem Ipsum is simply</p>
+              <h2 className="text-center mb-4">Welcome!</h2>
+              <h4 className="text-center mb-4">Sign Up</h4>
+              <p className="text-center mb-4">
+                Please fill in the form to create an account.
+              </p>
               <Form>
                 <InputForm
-                  textLabel="User name"
+                  textLabel="Name"
+                  htmlFor="name"
+                  placeholder="Enter your name"
+                  type="text"
+                  id="name"
+                />
+                <InputForm
+                  textLabel="Username"
                   htmlFor="username"
-                  placeholder="Enter your user name"
+                  placeholder="Enter your username"
                   type="text"
                   id="username"
                 />
                 <InputForm
                   textLabel="Password"
                   htmlFor="password"
-                  placeholder="Enter your Password"
+                  placeholder="Enter your password"
                   type="password"
                   id="password"
                 />
-                <Form.Group
-                  controlId="formBasicCheckbox"
-                  className="text-right"
-                >
-                  <FormCheck type="checkbox" label="Remember me" />
-                  <a href="#" className="d-block">
-                    Forgot Password ?
-                  </a>
-                </Form.Group>
+                <InputForm
+                  textLabel="Confirm Password"
+                  htmlFor="confirmPassword"
+                  placeholder="Confirm your password"
+                  type="password"
+                  id="confirmPassword"
+                />
                 <Button variant="success" type="submit" className="w-100">
-                  Login
+                  Register
                 </Button>
                 <p className="text-center mt-3">
-                  Don't have an Account ? <a href="#">Register</a>
+                  Already have an Account? <Link to="/login">Login</Link>
                 </p>
               </Form>
             </div>

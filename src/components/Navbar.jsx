@@ -10,6 +10,7 @@ function NavbarComp() {
     <Navbar
       collapseOnSelect
       expand="lg"
+      style={{ borderBottom: "1px solid #000" }}
     >
       <Container>
         <Navbar.Brand href="#home" as={Link} to="/">
@@ -37,7 +38,12 @@ function NavbarComp() {
             <Nav.Link as={Link} to="/contact">
               Kontak
             </Nav.Link>
-            <Button variant="success" as={Link} to="/register" className="btn rounded-1">
+            <Button
+              variant="success"
+              as={Link}
+              to="/register"
+              className="btn rounded-1"
+            >
               Daftar
             </Button>
           </Nav>

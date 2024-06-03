@@ -116,7 +116,7 @@ function Home() {
           dolore similique, voluptas dolorum dolor? Reiciendis ducimus itaque
           nesciunt. Debitis iusto natus neque temporibus vitae quam autem
           similique ipsum quas numquam consequuntur illum, dolore porro non
-          fugiat sequi? Nulla quidem vel accusantium debitis suscipit.
+          fugiat sequi? Nulla quidem vel accusantium debitis suscipit. As
         </p>
       </div>
 

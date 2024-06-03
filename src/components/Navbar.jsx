@@ -10,7 +10,8 @@ function NavbarComp() {
     <Navbar
       collapseOnSelect
       expand="lg"
-      style={{ borderBottom: "1px solid #000" }}
+      // style={{ borderBottom: "1px solid #000" }}
+      className="sticky-top"
     >
       <Container>
         <Navbar.Brand href="#home" as={Link} to="/">
@@ -26,9 +27,6 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">
-              Home
-            </Nav.Link>
             <Nav.Link as={Link} to="/about">
               Tentang Kami
             </Nav.Link>

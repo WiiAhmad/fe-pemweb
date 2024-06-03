@@ -22,21 +22,3 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-
-.bg-image {
-  background-image: url("./assets/bg.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 95vh;
-}
-
-.bg-image .container h1 {
-  color: var(--navbar-color);
-  align-content: center;
-}
-
-#section2{
-  text-align: center;
-  margin-top: 50px;
-}

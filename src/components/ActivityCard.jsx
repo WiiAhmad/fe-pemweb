@@ -9,12 +9,12 @@ function ActivityCard(props){
         className="rounded-top-3"
         src={img}
         alt="activity_img"
-        width="100%"
+        style={{ width: "100%", height: "45%", objectFit: "cover" }}
       />
 
       <div
         className="position-absolute fw-bold"
-        style={{ top: "210px", margin: "0" }}
+        style={{ top: "194px", margin: "0" }}
       >
         <span
           className="px-4"

@@ -1,44 +1,44 @@
 const products = [
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/boron_plus.jpeg",
+    title: "Special Baron Plus",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Special Boron Super adalah pupuk organik yang menyediakan unsur mikro penting bagi tanaman. Pupuk ini meningkatkan kualitas dan kuantitas hasil panen, menghasilkan buah yang lebih padat dan tahan lama dalam proses pasca panen atau penyimpanan.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/auliyagloss.jpeg",
+    title: "Auliya Gloss",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Auliya Gloss adalah produk campuran yang berfungsi sebagai perekat, pembasah, perata, dan penembus. Produk ini memastikan campuran pupuk dapat diterapkan secara efektif, terutama dalam kondisi hujan, sehingga tanaman tetap mendapat nutrisi tanpa terpengaruh oleh cuaca.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/bestblue_80wp.jpeg",
+    title: "Best Blue 80wp",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Best Blue adalah fungisida berbentuk tepung mengendalikan penyakit busuk daun, terutama pada tanaman tomat. Fungisida ini efektif dalam melindungi tanaman dari serangan jamur yang dapat merusak tanaman, sehingga tanaman tomat dapat tumbuh lebih sehat dan produktif.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/actozeb2_80wp.jpeg",
+    title: "Actozeb",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Actozeb adalah fungisida yang dirancang khusus untuk diaplikasikan pada sayuran, terutama untuk mengendalikan penyakit daun busuk pada kentang. Produk ini mampu memberikan perlindungan maksimal terhadap tanaman, menjaga kesehatan daun, dan meningkatkan kualitas hasil panen kentang.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/buan_pupuk.jpeg",
+    title: "Buan",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Buan adalah pupuk urea cair yang menyediakan nitrogen penting bagi tanaman. Produk ini membantu mempercepat pertumbuhan dan meningkatkan hasil panen dengan memberikan nutrisi yang diperlukan secara efisien.",
   },
 ];
 
 const activities = [
   {
-    img: "src/assets/img/activity_img.png",
+    img: "/src/assets/img/activities/gathering.jpeg",
     date: "10",
-    month: "Maret",
-    title: "Lorem ipsum dolor sit.",
+    month: "April",
+    title: "Buka Bersama",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum aspernatur quasi similique nesciunt dolorum id sit. Voluptatum saepe cum nemo!",
+      "Perayaan buka bersama (bukber) di toko Kang Jafar pada bulan Ramadan adalah momen yang sangat istimewa bagi kami dan komunitas kami. Ini bukan hanya tentang berbagi hidangan lezat setelah berpuasa sepanjang hari, tetapi juga tentang merayakan kebersamaan dan persahabatan.",
   },
   {
     img: "src/assets/img/activity_img.png",

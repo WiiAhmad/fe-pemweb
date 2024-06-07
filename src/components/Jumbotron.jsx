@@ -1,4 +1,4 @@
-const Jumbotron = (props) => {
+function Jumbotron(props){
   const { hreff } = props;
   return (
     <div

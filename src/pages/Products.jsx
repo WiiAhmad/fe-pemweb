@@ -4,7 +4,7 @@ function ProductsPage() {
   return (
     <div>
       <NavbarComp />
-      <h1>Products</h1>
+      <h1>Products test</h1>
     </div>
   );
 }

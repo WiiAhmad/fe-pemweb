@@ -1,4 +1,4 @@
-const Footer = () => {
+function Footer(){
   return (
     <div>
       <div

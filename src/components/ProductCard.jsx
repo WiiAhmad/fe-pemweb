@@ -1,4 +1,5 @@
-const ProductCard = ({ imgSrc, title, description }) => {
+function ProductCard(props){
+  const { imgSrc, title, description } = props;
   return (
     <div className="card mx-2" style={{ width: "350px", height: "500px" }}>
       <img src={imgSrc} alt={title} />

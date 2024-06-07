@@ -1,4 +1,5 @@
-const ActivityCard = ({ img, date, month, title, description }) => {
+function ActivityCard(props){
+  const { img, title, description, date, month } = props;
   return (
     <div
       className="card rounded-3 p-0 mx-2"

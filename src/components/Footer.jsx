@@ -3,13 +3,18 @@ const Footer = () => {
     <div>
       <div
         className="container-fluid py-5"
-        style={{ backgroundColor: "#0074B5" }}
+        style={{ backgroundColor: "#0074B5", marginTop: "75px" }}
       >
         <div className="container">
           <footer className="row">
             <div className="col text-center border-end border-white">
-              <div className="py-2">
-                <img src="/src/assets/company_logo.svg" alt="Logo" width="36px" />
+              <div className="py-2 d-flex justify-content-center align-items-end">
+                <img
+                  src="/src/assets/company_logo.svg"
+                  alt="Logo"
+                  width="36px"
+                  style={{ margin: "8px" }}
+                />
                 <h3 style={{ color: "white" }}>PT. PUTRA SINAR MAS</h3>
               </div>
               <ul className="nav flex-row justify-content-center">
@@ -24,7 +29,7 @@ const Footer = () => {
                 </li>
                 <li className="nav-item me-3">
                   <a
-                    href="#"
+                    href=""
                     className="text-decoration-none"
                     style={{ color: "white" }}
                   >

@@ -2,50 +2,50 @@ import NavbarComp from "../components/Navbar";
 import "../main.css";
 import Jumbotron from "../components/Jumbotron";
 import ProductCard from "../components/ProductCard";
-import Footer from "../components/Footer"; 
+import Footer from "../components/Footer";
 import ActivityCard from "../components/ActivityCard";
 
 const products = [
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/boron_plus.jpeg",
+    title: "Special Baron Plus",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Special Boron Super adalah pupuk organik yang menyediakan unsur mikro penting bagi tanaman. Pupuk ini meningkatkan kualitas dan kuantitas hasil panen, menghasilkan buah yang lebih padat dan tahan lama dalam proses pasca panen atau penyimpanan.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/auliyagloss.jpeg",
+    title: "Auliya Gloss",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Auliya Gloss adalah produk campuran yang berfungsi sebagai perekat, pembasah, perata, dan penembus. Produk ini memastikan campuran pupuk dapat diterapkan secara efektif, terutama dalam kondisi hujan, sehingga tanaman tetap mendapat nutrisi tanpa terpengaruh oleh cuaca.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/bestblue_80wp.jpeg",
+    title: "Best Blue 80wp",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Best Blue adalah fungisida berbentuk tepung mengendalikan penyakit busuk daun, terutama pada tanaman tomat. Fungisida ini efektif dalam melindungi tanaman dari serangan jamur yang dapat merusak tanaman, sehingga tanaman tomat dapat tumbuh lebih sehat dan produktif.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/actozeb2_80wp.jpeg",
+    title: "Actozeb",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Actozeb adalah fungisida yang dirancang khusus untuk diaplikasikan pada sayuran, terutama untuk mengendalikan penyakit daun busuk pada kentang. Produk ini mampu memberikan perlindungan maksimal terhadap tanaman, menjaga kesehatan daun, dan meningkatkan kualitas hasil panen kentang.",
   },
   {
-    imgSrc: "src/assets/img/product.jpg",
-    title: "Pestisida #229",
+    imgSrc: "/src/assets/img/products/buan_pupuk.jpeg",
+    title: "Buan",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores autem quaerat nesciunt facilis ipsam minima eveniet omnis unde! Quod, omnis unde.",
+      "Buan adalah pupuk urea cair yang menyediakan nitrogen penting bagi tanaman. Produk ini membantu mempercepat pertumbuhan dan meningkatkan hasil panen dengan memberikan nutrisi yang diperlukan secara efisien.",
   },
 ];
 
 const activities = [
   {
-    img: "src/assets/img/activity_img.png",
+    img: "/src/assets/img/activities/gathering.jpeg",
     date: "10",
-    month: "Maret",
-    title: "Lorem ipsum dolor sit.",
+    month: "April",
+    title: "Buka Bersama",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo harum aspernatur quasi similique nesciunt dolorum id sit. Voluptatum saepe cum nemo!",
+      "Perayaan buka bersama (bukber) di toko Kang Jafar pada bulan Ramadan adalah momen yang sangat istimewa bagi kami dan komunitas kami. Ini bukan hanya tentang berbagi hidangan lezat setelah berpuasa sepanjang hari, tetapi juga tentang merayakan kebersamaan dan persahabatan.",
   },
   {
     img: "src/assets/img/activity_img.png",
@@ -79,10 +79,7 @@ function Home() {
       <NavbarComp />
       <Jumbotron />
 
-      <div
-        className="container text-center my-4"
-        style={{ marginTop: "100px", marginBottom: "100px" }}
-      >
+      <div className="container text-center my-4">
         <h1>Produk Terbaru Kami</h1>
         <hr style={{ color: "#f5e400" }} />
         <div className="row overflow-scroll overflow-y-hidden flex-nowrap">
@@ -101,30 +98,30 @@ function Home() {
       </div>
 
       <div
-        className="container text-center rounded-3 p-3 my-4"
+        className="container text-center rounded-3 p-3"
         style={{
           backgroundColor: "#F8F8F8",
-          marginTop: "100px",
+          marginTop: "25px",
           marginBottom: "100px",
         }}
       >
         <h1 className="p-3">PT. PUTRA SINAR MAS</h1>
         <p className="px-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-          architecto ducimus nihil quisquam corrupti. Impedit non recusandae
-          adipisci sint quaerat facilis expedita iusto mollitia ex aliquam
-          dolore similique, voluptas dolorum dolor? Reiciendis ducimus itaque
-          nesciunt. Debitis iusto natus neque temporibus vitae quam autem
-          similique ipsum quas numquam consequuntur illum, dolore porro non
-          fugiat sequi? Nulla quidem vel accusantium debitis suscipit. As
+          PT. PUTRA SINAR MAS adalah perusahaan yang bergerak di sektor industri
+          dan perdagangan pertanian. Kami hadir sebagai wujud komitmen untuk
+          mendukung program peningkatan produktivitas pertanian, guna membangun
+          masa depan pertanian yang sejahtera dengan menyediakan produk
+          berkualitas tinggi dan optimal. Dengan pengalaman yang luas dan
+          dedikasi yang kuat, kami berupaya untuk selalu inovatif dalam
+          menciptakan solusi yang dapat meningkatkan efisiensi dan hasil
+          pertanian. Selain itu, kami juga menjalin kerjasama yang erat dengan
+          para petani dan mitra bisnis untuk memastikan keberlanjutan dan
+          kesejahteraan bersama.
         </p>
       </div>
 
-      <div
-        className="container text-center my-4"
-        style={{ marginTop: "100px", marginBottom: "100px" }}
-      >
-        <h1>Produk Terbaru Kami</h1>
+      <div className="container text-center" style={{ marginBottom: "100px" }}>
+        <h1>Kontak Kami</h1>
         <hr
           style={{
             color: "#f5e400",
@@ -167,9 +164,7 @@ function Home() {
         </div>
       </div>
 
-      <div
-        className="container text-center my-5"
-      >
+      <div className="container text-center" style={{ marginBottom: "15px" }}>
         <h1>Apa Kata Mereka</h1>
         <hr
           style={{
@@ -182,27 +177,37 @@ function Home() {
         >
           <img className="py-3" src="src/assets/img/stars.svg" alt="stars" />
           <p className="px-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            architecto ducimus nihil quisquam corrupti. Impedit non recusandae
-            adipisci sint quaerat facilis expedita iusto mollitia ex aliquam
-            dolore similique, voluptas dolorum dolor? Reiciendis ducimus itaque
-            nesciunt. Debitis iusto natus neque temporibus vitae quam autem
-            similique ipsum quas numquam consequuntur illum, dolore porro non
-            fugiat sequi? Nulla quidem vel accusantium debitis suscipit.
+            "Best Blue telah membantu saya mengatasi penyakit busuk daun pada
+            tanaman tomat. Hasil panen saya meningkat secara signifikan dan
+            kualitas tomat menjadi lebih baik. Saya sangat senang dengan produk
+            ini dan saya telah merekomendasikannya kepada teman-teman saya yang
+            juga bertani. Penggunaannya yang mudah dan efektif membuat saya
+            merasa lebih percaya diri dalam merawat tanaman saya."
           </p>
         </div>
-        <div className="position-relative text-center" style={{top: "-60px"}}>
-          <img src="src/assets/img/test_profile.svg" alt="person" className="mx-auto mb-3" style={{width: "100px", height: "100px", borderRadius: "80%"}}/>
-          <h3 className="mb-1" style={{fontWeight: "bold"}}>Joko Anwar</h3>
-          <p className="mb-0" style={{fontWeight: "bold"}}>IT CONSULTANT</p>
+        <div className="position-relative text-center" style={{ top: "-60px" }}>
+          <img
+            src="src/assets/img/test_profile.svg"
+            alt="person"
+            className="mx-auto mb-3"
+            style={{ width: "100px", height: "100px", borderRadius: "80%" }}
+          />
+          <h3 className="mb-1" style={{ fontWeight: "bold" }}>
+            Budi Santoso
+          </h3>
+          <p className="mb-0" style={{ fontWeight: "bold" }}>
+            Petani Tomat
+          </p>
         </div>
       </div>
 
-      <div
-        className="container text-center my-4"
-        style={{ marginTop: "100px", marginBottom: "100px" }}
-      >
+      <div className="container text-center" style={{ marginBottom: "75px" }}>
         <h1>Aktivitas Terbaru</h1>
+        <hr
+          style={{
+            color: "#f5e400",
+          }}
+        />
         <div className="row overflow-scroll overflow-y-hidden flex-nowrap">
           {activities.map((activity, index) => (
             <ActivityCard

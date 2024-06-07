@@ -1,8 +1,20 @@
 const ProductCard = ({ imgSrc, title, description }) => {
   return (
-    <div className="card mx-2" style={{ width: "350px", height: "500px" }}>
-      <img src={imgSrc} alt={title} />
-      <div>
+    <div
+      className="card mx-2"
+      style={{
+        width: "350px",
+        height: "500px",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <img
+        src={imgSrc}
+        alt={title}
+        style={{ height: "45%", objectFit: "cover" }}
+      />
+      <div style={{ textAlign: "center", flex: 1, padding: "10px" }}>
         <h2>{title}</h2>
         <p>{description}</p>
       </div>

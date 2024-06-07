@@ -7,10 +7,10 @@ const Jumbotron = (props) => {
         backgroundImage: "url(src/assets/bg.svg)",
         backgroundSize: "cover",
         height: "860px",
-        marginBottom: "120px"
+        marginBottom: "120px",
       }}
     >
-      <div className="container py-3 my-5" style={{fontWeight: "bold"}}>
+      <div className="container py-3 my-5" style={{ fontWeight: "bold" }}>
         <h1 className="fs-2 fw-light" style={{ color: "#f5e400" }}>
           PT. PUTRA SINAR MAS
         </h1>
@@ -25,6 +25,6 @@ const Jumbotron = (props) => {
       </div>
     </div>
   );
-}
+};
 
-export default Jumbotron
+export default Jumbotron;

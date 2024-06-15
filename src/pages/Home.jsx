@@ -30,6 +30,7 @@ function Home() {
           to="/products"
           className="btn my-5"
           style={{ backgroundColor: "#f5e400" }}
+          onClick={() => window.scrollTo(0, 0)}
         >
           Produk Kami
         </Link>
@@ -58,7 +59,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="container text-center" style={{ marginBottom: "100px" }}>
+      <div className="container text-center flex" style={{ marginBottom: "100px" }}>
         <h1>Kontak Kami</h1>
         <hr
           style={{

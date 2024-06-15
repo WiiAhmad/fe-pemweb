@@ -2,7 +2,7 @@ function ProductCard(props){
   const { imgSrc, title, description } = props;
   return (
     <div
-      className="card mx-2"
+      className="card m-3 shadow"
       style={{
         width: "350px",
         height: "500px",

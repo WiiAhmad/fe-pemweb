@@ -5,6 +5,7 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import ActivityCard from "../components/ActivityCard";
 import { products, activities } from "../components/AppData";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,13 +26,18 @@ function Home() {
             />
           ))}
         </div>
-        <button className="btn my-5" style={{ backgroundColor: "#f5e400" }}>
+        <Link
+          to="/products"
+          className="btn my-5"
+          style={{ backgroundColor: "#f5e400" }}
+          onClick={() => window.scrollTo(0, 0)}
+        >
           Produk Kami
-        </button>
+        </Link>
       </div>
 
       <div
-        className="container text-center rounded-3 p-3"
+        className="container text-center rounded-3 p-3 shadow"
         style={{
           backgroundColor: "#F8F8F8",
           marginTop: "25px",
@@ -53,7 +59,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="container text-center" style={{ marginBottom: "100px" }}>
+      <div className="container text-center flex" style={{ marginBottom: "100px" }}>
         <h1>Kontak Kami</h1>
         <hr
           style={{
@@ -62,7 +68,7 @@ function Home() {
         />
         <div className="row gap-3 justify-content-around">
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -73,7 +79,7 @@ function Home() {
             <h4 className="m-0">Instagram</h4>
           </button>
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -84,7 +90,7 @@ function Home() {
             <h4 className="m-0">WhatsApp</h4>
           </button>
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -105,7 +111,7 @@ function Home() {
           }}
         />
         <div
-          className="container rounded-3 p-5 my-5"
+          className="container rounded-3 p-5 my-5 shadow"
           style={{ backgroundColor: "#F8F8F8" }}
         >
           <img className="py-3" src="src/assets/img/stars.svg" alt="stars" />

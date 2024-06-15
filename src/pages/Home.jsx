@@ -37,7 +37,7 @@ function Home() {
       </div>
 
       <div
-        className="container text-center rounded-3 p-3"
+        className="container text-center rounded-3 p-3 shadow"
         style={{
           backgroundColor: "#F8F8F8",
           marginTop: "25px",
@@ -68,7 +68,7 @@ function Home() {
         />
         <div className="row gap-3 justify-content-around">
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -79,7 +79,7 @@ function Home() {
             <h4 className="m-0">Instagram</h4>
           </button>
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -90,7 +90,7 @@ function Home() {
             <h4 className="m-0">WhatsApp</h4>
           </button>
           <button
-            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center"
+            className="btn d-inline-flex text-black gap-3 justify-content-center align-items-center shadow"
             style={{ width: "200px", backgroundColor: "#F8F8F8" }}
           >
             <img
@@ -111,7 +111,7 @@ function Home() {
           }}
         />
         <div
-          className="container rounded-3 p-5 my-5"
+          className="container rounded-3 p-5 my-5 shadow"
           style={{ backgroundColor: "#F8F8F8" }}
         >
           <img className="py-3" src="src/assets/img/stars.svg" alt="stars" />

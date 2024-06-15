@@ -2,7 +2,7 @@ function ActivityCard(props){
   const { img, title, description, date, month } = props;
   return (
     <div
-      className="card rounded-3 p-0 mx-2"
+      className="card rounded-3 p-0 m-3 shadow"
       style={{ width: "360px", height: "500px" }}
     >
       <img

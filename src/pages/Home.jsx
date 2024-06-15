@@ -5,6 +5,7 @@ import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 import ActivityCard from "../components/ActivityCard";
 import { products, activities } from "../components/AppData";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -25,9 +26,13 @@ function Home() {
             />
           ))}
         </div>
-        <button className="btn my-5" style={{ backgroundColor: "#f5e400" }}>
+        <Link
+          to="/products"
+          className="btn my-5"
+          style={{ backgroundColor: "#f5e400" }}
+        >
           Produk Kami
-        </button>
+        </Link>
       </div>
 
       <div

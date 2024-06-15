@@ -27,7 +27,7 @@ function NavbarComp() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/about">
+            <Nav.Link as={Link} to="/">
               Tentang Kami
             </Nav.Link>
             <Nav.Link as={Link} to="/products">
